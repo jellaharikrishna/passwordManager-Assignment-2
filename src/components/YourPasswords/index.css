@@ -1,0 +1,82 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.password-card {
+  border: 2px solid #94a3b8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.first-name-data-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.userfirstchar {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border-width: 0;
+  color: white;
+  margin: 10px;
+}
+.password-data {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.password-heading {
+  color: white;
+  font-family: Roboto;
+  margin: 0;
+}
+.password-stars {
+  width: 110px;
+}
+.delete-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 10px;
+}
+.delete-icon {
+  width: 30px;
+}
+@media screen and (min-width: 768px) {
+  .passwordlist-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .password-card {
+    margin-right: 20px;
+    width: 31%;
+  }
+}
